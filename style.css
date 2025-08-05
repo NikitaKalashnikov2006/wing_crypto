@@ -877,7 +877,7 @@ nav {
 /* Медиа-запрос для мобильных устройств */
 @media (max-width: 768px) {
   .speech-bubble {
-    width: 43%; /* Увеличиваем ширину бабла для мобильных */
+    width: 41%; /* Увеличиваем ширину бабла для мобильных */
     left: 48%; /* Центрируем бабло */
     right: 2%;
     top:28%;
@@ -909,7 +909,7 @@ nav {
   height: 100%;
   width: 0;
   background-color: #000000;
-  animation: fillBar 9s linear forwards;
+  animation: fillBar 5s linear forwards;
 }
 
 .label {
@@ -945,4 +945,5 @@ nav {
 .loaded .loader {
   opacity: 0;
   pointer-events: none;
+
 }
