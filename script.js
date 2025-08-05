@@ -324,8 +324,8 @@ function loadLessonContent(lessonId) {
 // Функция для отправки приглашения
 function sendInvite() {
   try {
-    const botUsername = 'Business_shop_bot';
-    const appName = 'WING';
+    const botUsername = 'wing_crypto_bot';
+    const appName = 'wing';
     const refLink = `https://t.me/${botUsername}/${appName}`;
     const shareText = `🚀 Присоединяйся к проекту WING!`;
     const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(refLink)}&text=${encodeURIComponent(shareText)}`;
@@ -337,7 +337,7 @@ function sendInvite() {
     }
   } catch (error) {
     console.error('Ошибка:', error);
-    alert(`Скопируйте ссылку вручную:\nhttps://t.me/Business_shop_bot/wing`);
+    alert(`Скопируйте ссылку вручную:\nhttps://t.me/wing_crypto_bot/wing`);
   }
   
   // Закрываем модальное окно
@@ -347,7 +347,7 @@ function sendInvite() {
 
 // Функция для копирования ссылки приглашения
 function copyInviteLink() {
-  const botUsername = 'Business_shop_bot';
+  const botUsername = 'wing_crypto_bot';
   const appName = 'wing';
   const refLink = `https://t.me/${botUsername}/${appName}`;
   
@@ -406,7 +406,7 @@ function initTonConnect() {
       manifestUrl: 'https://nikitakalashnikov2006.github.io/shop/manifest-tonconnect.json',
       buttonRootId: 'ton-connect',
       uiOptions: {
-        twaReturnUrl: 'https://t.me/Business_shop_bot/wing'
+        twaReturnUrl: 'https://t.me/wing_crypto_bot/wing'
       }
     });
 
